@@ -1,3 +1,4 @@
 name: Ruskh
 markdown: kramdown
 permalink: /blog/:day/:month/:year/:title
+highlighter: rouge 
