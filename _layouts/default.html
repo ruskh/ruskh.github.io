@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Ruskh</title>
+		<title>{{ page.title }}</title>
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
 	<body>
@@ -14,10 +14,7 @@
     		</ul>
 		</nav>
 		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi!</h1>
-				<p>I'll write my T-SQL and Unity Code <em>here</em> ... <a href="/about">...</a></p>
-    		</div><!-- /.blurb -->
+    		{{ content }}
 		</div><!-- /.container -->
 		<footer>
     		<ul>
