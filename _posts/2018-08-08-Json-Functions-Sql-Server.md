@@ -10,6 +10,9 @@ GSTR2A.json contains details of invoices uploaded by Suppliers. One file exists 
 2. Store files for multiple periods and Dealers in the same folder.
 3. Give any names to the files, without affecting the results.
 
+
+
+
 ```
 SELECT name as Filename , creation_time,
 Gstr2A.OurGST,Gstr2A.GSTMonth,Supplier.GSTIN,Invoice.Inv_Date,Invoice.Inv_Num,
