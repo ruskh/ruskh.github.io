@@ -11,7 +11,7 @@ GSTR2A.json contains details of invoices uploaded by Suppliers. One file exists 
 3. Give any names to the files, without affecting the results.
 
 		 SELECT name as Filename , creation_time,
-      		 Gstr2A.OurGST,Gstr2A.GSTMonth,Supplier.GSTIN,Invoice.Inv_Date,Invoice.Inv_Num,      		 
+      		 Gstr2A.OurGST,Gstr2A.GSTMonth,Supplier.GSTIN,Invoice.Inv_Date,Invoice.Inv_Num,
 		 Invoice.Inv_Total,Item.Taxable_Value,Item.Tax_Rate,Item.CGST,Item.SGST,Item.IGST,Item.Cess,
                  Invoice.Inv_Type,Invoice.Point_of_Supply,Invoice.RCM,
                  Item.Num,Invoice.chksum,Supplier.cfs,Supplier.cname from dbo.GSTJSON 
