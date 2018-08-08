@@ -6,9 +6,10 @@ date: 2018-08-08
 
 GSTR2A.json contains details of invoices uploaded by Suppliers. One file exists per month. The data contained in these files keeps changing as and when suppliers file their returns, so these files need to be redownloaded. Storing these files in a  MS Sql Server File Table, makes it easy to :
 
-1. Consider only the latest file, by File Creation Date ```creation_time``` and ignore older duplicates.
+1. Consider only the latest file, by File Creation Date `creation_time` and ignore older duplicates.
 2. Store files for multiple periods and Dealers in the same folder.
 3. Give any names to the files, without affecting the results.
+
 ```
 SELECT name as Filename , creation_time,
 Gstr2A.OurGST,Gstr2A.GSTMonth,Supplier.GSTIN,Invoice.Inv_Date,Invoice.Inv_Num,
