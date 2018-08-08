@@ -9,7 +9,7 @@ GSTR2A.json contains details of invoices uploaded by Suppliers. One file exists 
 1. Consider only the latest file, by File Creation Date and ignore older duplicates.
 2. Store files for multiple periods and Dealers in the same folder.
 3. Give any names to the files, without affecting the results.
-
+```
 		 SELECT name as Filename , creation_time,
       		 Gstr2A.OurGST,Gstr2A.GSTMonth,Supplier.GSTIN,Invoice.Inv_Date,Invoice.Inv_Num,
 		 Invoice.Inv_Total,Item.Taxable_Value,Item.Tax_Rate,Item.CGST,Item.SGST,Item.IGST,Item.Cess,
@@ -37,4 +37,4 @@ GSTR2A.json contains details of invoices uploaded by Suppliers. One file exists 
 		        Tax_Rate float '$.itm_det.rt',Sgst float '$.itm_det.samt',
 		        Cgst float '$.itm_det.camt',Igst float '$.itm_det.iamt',Cess float '$.itm_det.csamt') As Item
 
-
+```
