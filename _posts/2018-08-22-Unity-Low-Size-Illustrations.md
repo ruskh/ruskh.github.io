@@ -1,6 +1,7 @@
+---
 layout: post
 title: "Low Size Illustrations using SpriteShape"
-date: 2018-08-08
+date: 2018-08-22
 ---
 
 Join points to create simple low size illustrations
@@ -8,7 +9,7 @@ Join points to create simple low size illustrations
 
 
 
-```
+``` C#
 using System;
 using System.Collections;
 using System.Collections.Generic;
