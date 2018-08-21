@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Low Size Illustrations using SpriteShape"
-date: 2018-08-22
+date: 2018-08-08
 ---
 
 Join points to create simple low size illustrations
