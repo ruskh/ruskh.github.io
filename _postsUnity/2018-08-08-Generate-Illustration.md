@@ -1,5 +1,5 @@
 ---
-layout: postUnity
+layout: post
 title: "Low Size Illustrations using SpriteShape"
 date: 2018-08-22
 ---
