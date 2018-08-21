@@ -27,7 +27,6 @@ public class ShapeGen : MonoBehaviour
     Sprite sourceSprite;
     
     PointComparer pC = new PointComparer(); //Custom Comparer  to sort points, inherits from Comparer<T>
-    //int prevPoint = 4;
     Vector2[] sourceVertices;
     Vector3[] sortedSourceVertices;
     float yOfstartPoint;
