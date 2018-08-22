@@ -4,14 +4,14 @@ title: "Low Size Illustrations using SpriteShape"
 date: 2018-08-22
 ---
 
-Join points to create simple low size illustrations
+Join points to create simple low size illustrations from a source image.
+Helpful for creating game art without drawing and for keeping file  sizes low. 
+File size will be about 15 to 20 Kb per image.
 
 
 
 ```C#
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.U2D;
 
@@ -35,7 +35,7 @@ public class ShapeGen : MonoBehaviour
     SpriteShapeController targetSpriteShapeController;
     Spline targetSpline;
 
-
+    public float tolerance;
     
     void Start()
     {
@@ -110,7 +110,7 @@ public class ShapeGen : MonoBehaviour
     {
         Vector3 diff = spline.GetPosition(spline.GetPointCount() - 1) - sourceVector[counter];
         
-        if (diff.magnitude > 0.04f)
+        if (diff.magnitude > tolerance)
         {
             spline.InsertPointAt(spline.GetPointCount(), sourceVector[counter]);
 
