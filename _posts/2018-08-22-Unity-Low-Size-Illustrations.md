@@ -4,10 +4,8 @@ title: "Low Size Illustrations using SpriteShape"
 date: 2018-08-22
 ---
 
-Join points to create simple low size illustrations from a source image.
-Helpful for creating game art without drawing and for keeping file  sizes low. 
-File size will be about 15 to 20 Kb per image.
-
+Spriteshapes help keep game sizes low, they need about 15 to 20 Kb per image.
+This script helps create simple illustrations from a source umage without having to draw.
 
 
 ```C#
