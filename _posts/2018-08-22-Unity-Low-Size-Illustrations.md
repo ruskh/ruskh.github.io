@@ -106,7 +106,8 @@ public class ShapeGen : MonoBehaviour
 
 
     // Only Insert Point if its not too close to the previous one
-    public void InsertValidPoint(int counter, Spline spline, Vector3[] sourceVector)
+    
+    void InsertValidPoint(int counter, Spline spline, Vector3[] sourceVector)
     {
         Vector3 diff = spline.GetPosition(spline.GetPointCount() - 1) - sourceVector[counter];
         
