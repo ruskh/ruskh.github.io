@@ -5,7 +5,7 @@ date: 2018-08-22
 ---
 
 Spriteshapes help keep game sizes low, they need about 15 to 20 Kb per image.
-This script helps create simple illustrations from a source umage without having to draw.
+This script helps create simple illustrations from a source image without having to draw.
 
 
 ```C#
