@@ -9,7 +9,7 @@ Join points to create simple low size illustrations
 
 
 
-``` C#
+{% highlight C# %} 
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -131,4 +131,4 @@ public class ShapeGen : MonoBehaviour
 
 }
 
-```
+{% endhighlight %}
