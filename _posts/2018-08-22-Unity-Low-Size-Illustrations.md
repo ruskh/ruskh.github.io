@@ -4,7 +4,8 @@ title: "Low Size Illustrations using SpriteShape"
 date: 2018-08-22
 ---
 
-Spriteshapes help keep game sizes low, they need about 15 to 20 Kb per image.
+Spriteshapes help keep game sizes low, by replacing images with Spriteshapes and reusing textures to fill the shapes.
+They need about 15 to 20 Kb per image, excluding the texture size. Textures should ideally be included in the main build itself so that they can be reused across downloadable levels. 
 This script helps create simple illustrations from a source image without having to draw.
 Adjust tolerance in the editor to control detail of output, fewer the points on the spline, lower the file size of the Spriteshape.
 
